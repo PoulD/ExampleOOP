@@ -19,9 +19,6 @@ import testcar.Сomparison.SimpleComparison;
  */
 public class TestCar {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         
         MercedesVito vito = new MercedesVito();
