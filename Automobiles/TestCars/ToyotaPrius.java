@@ -25,7 +25,6 @@ public class ToyotaPrius extends LandVehicle implements SpecialCar, Taxi{
         super.carEngine = (CarEngine) new GasEngine();
     }
      
-    
     @Override
     public void drivePassenger() {
         System.out.println("Drive passengesr in " + this.getModel());
