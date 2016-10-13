@@ -75,11 +75,6 @@ public class LandVehicle extends Vehicle implements PassengerCar{
         }
     }
 
-    private boolean controllFactor1(){
-        // some method logic
-        return true;
-    }
-    
     protected boolean controllFactor2(){
         if (controllFactor1()){
             // some method logic
@@ -99,6 +94,9 @@ public class LandVehicle extends Vehicle implements PassengerCar{
             return false;
         }
     }
-    
-    
+	
+    private boolean controllFactor1(){
+        // some method logic
+        return true;
+    }
 }
