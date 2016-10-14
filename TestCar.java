@@ -31,12 +31,11 @@ public class TestCar {
         /**
          * ToyotaPrius is a LandVehicle
          * But not always the LandVehicle is a ToyotaPrius
-         * Now prius is downcasting to LandVehicle
          */
         LandVehicle prius = new ToyotaPrius();
         
          /**
-         * Now prius is downcasting to Taxi and implements all Taxi and
+         * Now prius is upcasting to Taxi and implements all Taxi and
          * Passenger car methods, because Taxi extends PassengerCar interface
          */
         if(prius instanceof Taxi){
